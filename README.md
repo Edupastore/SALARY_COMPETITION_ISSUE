@@ -8,7 +8,7 @@
 1.[✍️ Descripción del proyecto](#descripción)\
 2.[👀 Exploración y preparación de los datos (análisis y limpieza)](#limpieza)\
 3.[📈 Entrenamiento y testeo de modelos de Machine Learning](#traintest)\
-4.[📈 Resultados: mejor modelo](#resultados)\
+4.[⏫ Resultados: mejor modelo](#resultados)\
 
 ## ✍️ Descripción
 
@@ -18,12 +18,12 @@ Este proyecto trata sobre una competición en la plataforma Kaggle, cuya meta es
 
 Para limpiar los datos, hemos seguido los siguientes pasos:
 
-    - Hemos explorado nuestro dataset para ver a qué nos enfrentábamos; hemos observado que no hay nulos.
-    - Hemos prescindido de varias columnas al pensar que no tenían peso a la hora de poder predecir nuestra variable objetivo.
-    - Hemos hecho una serie de transformaciones en varias columnas para homogeneizar los datos.
-    - Las columnas categóricas las hemos transformado a númericas mediante get_dummies.
-    - Hemos chequeado las correlaciones entre las distintas variables y nuestra variable objetivo.
-    - Hemos comprobado que no había registros duplicados.
+- Hemos explorado nuestro dataset para ver a qué nos enfrentábamos; hemos observado que no hay nulos.
+- Hemos prescindido de varias columnas al pensar que no tenían peso a la hora de poder predecir nuestra variable objetivo.
+- Hemos hecho una serie de transformaciones en varias columnas para homogeneizar los datos.
+- Las columnas categóricas las hemos transformado a númericas mediante get_dummies.
+- Hemos chequeado las correlaciones entre las distintas variables y nuestra variable objetivo.
+- Hemos comprobado que no había registros duplicados.
 
 ## 📈 Entrenamiento y testeo de modelos de Machine Learning
 
@@ -33,7 +33,7 @@ Al entrenar los datos pasándole "lazy", hemos visto que el modelo que mejor se 
 
 Para finalizar, hemos hecho el mismo proceso para la fase de testeo y hemos exportado los datos a un csv llamado salary_predict_usd que hemos subido a Kaggle.
 
-## 📈 Resultados: mejor modelo
+## ⏫ Resultados: mejor modelo
 
 Como hemos comentado en el epígrafe anterior, el modelo que mejor se ajusta a los datos con los que hemos trabajado es el GammaRegressor.
 
